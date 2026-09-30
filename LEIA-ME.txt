@@ -1,0 +1,37 @@
+GARAGEM VIVA — INSTALAR NO TELEMÓVEL (PWA)
+==========================================
+
+1. CRIAR O SITE (uma vez, ~5 minutos, no PC)
+   a) Cria conta gratuita em https://github.com
+   b) Canto superior direito "+" > "New repository"
+      - Nome: garagem-viva
+      - Public (o GitHub Pages gratuito exige repositório público)
+      - "Create repository"
+   c) Na página do repositório: "uploading an existing file"
+      - Arrasta TODO o conteúdo desta pasta (index.html, manifest.webmanifest,
+        sw.js, .nojekyll e a pasta icons) > "Commit changes"
+   d) Settings > Pages > Source: "Deploy from a branch" > Branch: main / (root) > Save
+   e) Espera 1–2 minutos. O endereço fica:
+      https://O-TEU-UTILIZADOR.github.io/garagem-viva/
+
+2. INSTALAR NO TELEMÓVEL (Android, Chrome)
+   a) Abre o endereço acima no Chrome
+   b) Menu ⋮ > "Instalar aplicação" (ou o botão verde "⤓ Instalar app")
+   c) Fica com ícone no ecrã, abre em ecrã inteiro e funciona sem Internet
+
+3. PASSAR OS TEUS DADOS PARA O TELEMÓVEL
+   a) No PC (HTML atual): "Exportar" > gera garagem-viva-backup-AAAA-MM-DD.json
+   b) Envia o ficheiro para o telemóvel (email, Drive, WhatsApp para ti próprio)
+   c) Na app do telemóvel: "Importar" > escolhe o ficheiro
+   Nota: os dados ficam guardados no telemóvel. O PC e o telemóvel NÃO sincronizam
+   sozinhos — usa Exportar/Importar para passar dados de um para o outro.
+
+4. ATUALIZAÇÕES
+   Quando houver nova versão, basta substituir o index.html no repositório
+   ("Add file" > "Upload files"). A app atualiza sozinha na próxima abertura
+   com Internet e mostra "Nova versão disponível".
+
+PRIVACIDADE
+- O endereço é público: quem o tiver vê a app vazia e as fotos dos carros.
+- Os teus registos, documentos e definições ficam SÓ no dispositivo.
+- Faz "Exportar" de vez em quando como cópia de segurança.

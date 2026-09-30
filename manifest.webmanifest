@@ -1,0 +1,24 @@
+{
+  "name": "Garagem Viva · RIVA",
+  "short_name": "Garagem Viva",
+  "description": "Gestão dos veículos: abastecimentos, manutenção, prazos, documentos e preços dos combustíveis.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080b10",
+  "theme_color": "#080b10",
+  "lang": "pt-PT",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Novo abastecimento", "short_name": "Abastecer", "url": "./?acao=abastecer", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Preços dos combustíveis", "short_name": "Preços", "url": "./#prices", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
