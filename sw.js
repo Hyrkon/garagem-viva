@@ -1,5 +1,5 @@
 /* Garagem Viva · service worker */
-const VERSION = 'gv-2026-09-30-1';
+const VERSION = 'gv-2026-10-01-1';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-192.png', './icons/maskable-512.png', './icons/apple-touch-icon.png', './icons/favicon-32.png'];
 const LIBS = /^https:\/\/unpkg\.com\/leaflet@/;
 const TILES = /^https:\/\/server\.arcgisonline\.com\//;
